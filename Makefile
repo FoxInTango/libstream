@@ -2,7 +2,6 @@ CC=g++
 AS=as
 AR=ar
 LD=ld
-CP=llvm-objcopy
 
 PLATFORM_ARCH         = $(shell uname -s)
 PLATFORM_ARCH_LINUX   = Linux
