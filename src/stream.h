@@ -5,6 +5,13 @@
 EXTERN_C_BEGIN
 namespaceBegin(foxintango)
 
+class foxintangoAPI Stream
+{
+public:
+    virtual bool readable();
+    virtual read();
+    virtual write();
+};
 namespaceEnd
 EXTERN_C_END
 #endif
