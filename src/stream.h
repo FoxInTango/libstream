@@ -8,9 +8,12 @@ namespaceBegin(foxintango)
 class foxintangoAPI Stream
 {
 public:
+    Stream();
+    virtual ~Stream();
+public:
     virtual bool readable();
-    virtual read();
-    virtual write();
+    virtual int read(const char* buffer,const unsigned int& size);
+    virtual int write(const char* buffer,const unsigned int& size);
 };
 namespaceEnd
 EXTERN_C_END
