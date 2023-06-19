@@ -6,6 +6,8 @@
 EXTERN_C_BEGIN
 namespaceBegin(foxintango)
 
+class foxintangoAPI StreamReader{};
+class foxintangoAPI StreamWriter{};
 class foxintangoAPI Stream
 {
 public:
