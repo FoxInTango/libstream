@@ -3,6 +3,10 @@
 #include <liburl/liburl.h>
 #include <libstring/libstring.h>
 #include <libcpp/libcpp.h>
+
+/** TODO 
+ * 模板化 
+ */
 EXTERN_C_BEGIN
 namespaceBegin(foxintango)
 
