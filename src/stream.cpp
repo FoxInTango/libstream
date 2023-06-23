@@ -16,4 +16,4 @@ bool Stream::writeable(){
 int Stream::read(const char* buffer, const unsigned int& size) { return 0; }
 int Stream::write(const char* buffer, const unsigned int& size) { return 0; }
 
-Unicode Stream::operator [](const Index& index);
+Unicode Stream::operator [](const Index& index){ return 0; }
